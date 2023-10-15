@@ -1,0 +1,248 @@
+header {
+  background-image: url(photo.folder/mediterranean-cuisine-g298ab116f_640.jpg);
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 20px 40px;
+  margin-bottom: 50px;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header li {
+  color: white;
+  margin-left: 30px;
+}
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 4.5rem;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+}
+
+.wrapper{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+#menu .title {
+  background-image: url(photo.folder/noodles-gbfdf13581_640.jpg);
+  background-size: cover;
+  position: relative;
+}
+#menu .set {
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#menu h2 {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 4.5rem;
+  position: absolute;
+  top: 30%;
+}
+#menu .menu-all {
+  display: flex;
+}
+#menu .menu-heaf {
+  width: 50%;
+  padding: 0 45px;
+  text-align: center;
+}
+#menu h3 {
+  font-size: 2.5rem;
+  border-bottom: solid 6px red;
+  display: inline-block;
+  margin-bottom: 70px;
+}
+#menu dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+#menu dt {
+  width: 87%;
+  text-align: left;
+  margin-bottom: 25px;
+  border-bottom: dotted 1px black;
+  display: block;
+}
+#menu dd {
+  width: 13%;
+  text-align: right;
+  padding-top: 8px;
+}
+
+#about .title {
+  background-image: url(photo.folder/tomatoes-g25f77fa3e_640.jpg);
+  background-size: cover;
+  position: relative;
+  margin-bottom: 70px;
+}
+#about .set {
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#about h2 {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 4.5rem;
+  position: absolute;
+  top: 30%;
+}
+#about .about-text {
+  text-align: center;
+  margin-bottom: 70px;
+}
+#about h3 {
+  font-size: 2.5rem;
+  border-bottom: solid 6px red;
+  display: inline-block;
+  margin-bottom: 70px;
+}
+#about ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#about li {
+  width: 50%;
+  padding: 2%;
+  text-align: left;
+}
+
+.btn{
+  width: 160px;
+  height: 50px;
+  line-height: 3.5;
+  display: inline-block;
+  color: #000;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.btn span{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#about .btn::before,
+#about .btn::after{
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #e03131;
+  transition: all 0.3s ease;
+}
+#about .btn span::before,
+#about .btn span::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #e03131;
+  transition: all 0.3s ease;
+}
+
+#about .btn::before,
+#about .btn span::before{
+  width: 2px;
+  height: 50%;
+}
+#about .btn::after,
+#about .btn span::after {
+  width: 20%;
+  height: 2px;
+}
+#about .btn:hover::before,
+#about .btn span:hover::before{
+  height: 100%;
+}
+#about .btn:hover::after,
+#about .btn span:hover::after{
+  width: 100%;
+}
+
+#access .access {
+  text-align: center;
+}
+#access .title {
+  width: 100%;
+  background-image: url(photo.folder/photo-1579752284549-71eb9dd09f4b.jpg);
+  background-size: cover;
+  position: relative;
+  margin-bottom: 70px;
+}
+#access .set {
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#access h2 {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 4.5rem;
+  position: absolute;
+  top: 30%;
+}
+#access h3 {
+  font-size: 2.5rem;
+  display: inline-block;
+  border-bottom: solid 6px red;
+  margin-bottom: 40px;
+}
+#access iframe {
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+  filter: grayscale(1);
+}
+#access p {
+  padding: 10px 15px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.5rem;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 750px) {
+  .menu-all {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 0 auto;
+  }
+  #menu .menu-heaf{
+    width: 100%;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-text ul {
+    flex-direction: column;
+  }
+  #about li{
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
