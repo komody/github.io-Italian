@@ -36,6 +36,7 @@ header h1 {
   background-image: url(photo.folder/noodles-gbfdf13581_640.jpg);
   background-size: cover;
   position: relative;
+  margin-bottom: 70px;
 }
 #menu .set {
   height: 300px;
@@ -53,6 +54,7 @@ header h1 {
 }
 #menu .menu-all {
   display: flex;
+  margin-bottom: 70px;
 }
 #menu .menu-heaf {
   width: 50%;
